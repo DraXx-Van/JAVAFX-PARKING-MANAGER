@@ -2,4 +2,21 @@
 /out/
 /build/
 /target/
+
+# IntelliJ
+.idea/
 *.iml
+
+# Maven
+target/
+dependency-reduced-pom.xml
+
+# Logs
+*.log
+
+# Java
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
