@@ -1,0 +1,54 @@
+.parent{
+    -fx-background-color : #fbfdfd;
+    -fx-border-radius : 10px;
+}
+.sidepanel{
+    -fx-background-color: #f8eded;
+
+}
+.Image{
+    -fx-background-color: #f1f0ec;
+    -fx-background-radius : 30px 30px 30px 30px;
+}
+
+.button{
+    -fx-border-color: #bfb8b8; /* Sets the border color to red */
+    -fx-border-width: 2px; /* Sets the border width */
+    -fx-border-style: solid; /* Sets the border style */
+    -fx-background-color: transparent;
+    -fx-border-radius : 10px;
+
+}
+#Startbutton{
+    -fx-background-color: #0b68ea;
+    -fx-border-radius : 10px;
+}
+
+.slots {
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.1),5,0,0,5);
+    -fx-cursor: hand;
+    -fx-transition: all 0.1s ease;
+}
+
+.slots:hover {
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.1),5,0,0,5);
+    -fx-scale-x: 1.01;
+    -fx-scale-y: 1.01;
+
+}
+
+/* Hide both scrollbars completely */
+.scroll-pane.no-scrollbar > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane.no-scrollbar > .scroll-bar:vertical,
+.scroll-pane.no-scrollbar > .scroll-bar:horizontal {
+    -fx-opacity: 0;
+    -fx-max-width: 0;
+    -fx-max-height: 0;
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+    visibility: hidden;
+}
