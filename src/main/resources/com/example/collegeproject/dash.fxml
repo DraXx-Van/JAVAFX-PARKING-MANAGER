@@ -132,7 +132,7 @@
                      <children>
                         <ImageView fitHeight="214.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" x="120.0" y="10.0">
                            <image>
-                              <Image url="@images/Available%20Slots.png" />
+                              <Image url="@images/AvailableSlots.png" />
                            </image>
                         </ImageView>
                         <Label layoutX="15.0" layoutY="15.0" prefHeight="35.0" prefWidth="210.0" text="Slots Available">
